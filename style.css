@@ -11,24 +11,23 @@ body {
 }
 
 H1 {
-  font-family: fantasy;
+  font-family: fantasy, Georgia, 'Times New Roman', Times, serif;
   font-size: 3em;
-  border-bottom: 2px solid rgb(80, 64, 139);
-  border-right: 2px solid rgb(80, 64, 139);
+  border-bottom: 2px solid rgba(80, 64, 139, 0.5);
+  border-right: 2px solid rgba(80, 64, 139, 0.5);
   width: 400px;
   text-align: center;
   box-shadow: 4px 4px 5px #888888;
   margin-top: 10px;
 }
+
 img {
   width: 1000px;
   height: 1000px;
   margin: 100px;
   transition: all 1s;
-
 }
 
 img:hover {
-  transform: scale(1.100);
-  
-}
+  transform: scale(1.1);
+  }
